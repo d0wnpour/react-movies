@@ -1,0 +1,50 @@
+.movie__content {
+    background: #0E6BA8;
+    color: #fff;
+    margin: 10px;
+    width: 320px;
+    border-radius: 5px;
+    overflow: hidden;
+    position: relative;
+  }
+  
+  .movie__content img {
+    object-fit: fill;
+    height: 400px;
+    width: 100%;
+  }
+  
+  .about {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+  }
+  
+  .about h4 {
+    margin: 0;
+  }
+  
+  .description {
+    background-color: #A6E1FA;
+    color: #000;
+    text-align: center;
+    padding: 10px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    overflow: auto;
+    max-height: 105%;
+    transform: translateY(100%);
+    transition: transform 0.4s ease;
+  }
+  .movie__content:hover .description {
+    transform: translateY(0%);
+  }
+  
+  .vote {
+    background-color: #00072D;
+    border-radius: 10px;
+    padding: 5px;
+  }

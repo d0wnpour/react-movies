@@ -1,0 +1,19 @@
+.search__bar {
+    background-color: #00072D;
+    display: flex;
+    justify-content: center;
+    padding: 2rem;
+  }
+  .search {
+    background-color: #A6E1FA;
+    border-radius: 12px;
+    font-size: 16px;
+    padding: 5px;
+  }
+  
+  .movie__container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-color: #0A2472;
+  }
